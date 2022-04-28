@@ -20,9 +20,16 @@ body{
   /* font-family: 'ProximaNovaRegular' !important; */
 }
 
-.nav {
-
+.nav{
+ 
   background-color:rgb(138 137 142 / 9%);
+}
+
+.all-header{
+   position: fixed;
+  top: 0;
+  z-index: 1;
+  background-color: white;
 }
 
 .formain{
@@ -37,6 +44,10 @@ body{
   width: 2rem;
   height: auto;
   cursor: pointer;
+}
+
+.d-block {
+  width: 100%;
 }
 
 .headerLogo span{
@@ -67,6 +78,7 @@ body{
 .language img {
   width: 2rem;
   height: auto;
+  cursor: pointer;
 }
 .ad {
   border-radius: 500px;
@@ -96,6 +108,7 @@ body{
 
 .login p {
   font-size: 0.8rem;
+  cursor: pointer;
 }
 
 .songs {
@@ -238,6 +251,7 @@ a:hover:before {
 
 .text1 {
   color: red;
+  cursor: pointer;
 }
 
 .middle {
@@ -305,6 +319,7 @@ a:hover:before {
 }
 .for-f-fz ul li {
   cursor: pointer;
+  color: grey;
 }
 
 .for-f-fz ul li:first-child {

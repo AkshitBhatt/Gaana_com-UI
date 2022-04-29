@@ -1,0 +1,92 @@
+@media (max-width:760px){
+  .language img,
+  .moon-img img, 
+  .plus button {
+    display: none !important;
+  }
+
+  .hamburger img{
+    width: 6.5rem;
+  }
+  
+  .login P {
+    font-size: 2rem;
+  }
+  .ad {
+    font-size: 2rem;
+    padding-top: 2px;
+  }
+  .new {
+    font-size: 1rem;
+    padding-top: 2px; 
+  }
+
+  .trending {
+    font-size: 3rem;
+  }
+  .text1 {
+    font-size: 3rem;
+  }
+
+  .bajna {
+    font-size: 3rem;
+  }
+
+  .one-stop {
+    font-size: 2rem !important;
+  }
+
+  .f-min {
+    font-size: 1.8rem; 
+  }
+
+  .for-f-fz ul li  {
+    font-size: 1rem;
+  }
+
+  .container1 p{
+    font-size: 2rem;
+  }
+
+  .songs{
+    justify-content: space-between;
+    font-size: 3rem;
+    white-space: nowrap;
+    overflow-y: scroll;
+    gap: 5rem !important;
+  }
+  .songs::-webkit-scrollbar{
+    display: none;
+  }
+  .searchBar {
+    padding: 1rem 2rem;
+    width: 100%;
+
+  }
+  .searchBar input{
+    font-size: 2.5rem;
+  }
+  .searchBar img{
+    width: 3rem;
+  }
+  .login,
+  .ad,
+  .new{
+    display: none !important;
+  }
+  .hamburger1{
+    justify-content: space-between;
+  }
+  
+  }
+}
+
+
+  
+
+ 
+
+  
+
+
+}

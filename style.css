@@ -54,13 +54,14 @@ body{
   height: auto;
 }
 .searchBar{
-  border: 1px solid black;
+  border: 1px solid rgba(0,0,0,.1);
   padding: 0.2rem 0.5rem;
   border-radius: 500px;
   width: 28rem;
   background-color: white;
   display: flex;
   align-items: center;
+  gap: 0.5rem;
 }
 
 .searchBar input{
@@ -69,6 +70,7 @@ body{
   font-size: 0.8rem;
   width: 90%;
   cursor: pointer;
+  padding: 0.3rem 0;
 }
 .moon-img img,
 .language img {
@@ -122,6 +124,7 @@ ul > li > a > .form-select{
   /* padding: 0; */
   padding: 0.375rem 2.25rem 0.375rem 0.75rem;
   font-size: .8rem;
+  cursor: pointer;
 }
 
 
@@ -215,7 +218,7 @@ a:hover:before {
   opacity: 1;
   display: block;
   width: 80%;
-  height: 90% !important;
+  height: 85% !important;
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
